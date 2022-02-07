@@ -112,6 +112,38 @@ body {
   line-height: 36px;
 }
 
+/* Advantages */
+
+.advantages-title,
+.advantages-additional-title  {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-number,
+.advantages-description,
+.advantages-additional-description {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+.advantages-title-town,
+.advantages-number-town,
+.advantages-description-town,
+.advantages-title-bridge,
+.advantages-number-bridge,
+.advantages-description-bridge {
+  color: #ffffff;
+}
+
+
 /*  Каталог */
 .filter-hotels-container {
   background-color: #88a4b9;
