@@ -24,6 +24,17 @@ body {
   color: #333333;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Кнопки */
 .button {
   font-family: "PTSans", sans-serif;
@@ -81,7 +92,7 @@ body {
 }
 
 .tagline-title {
-  margin-bottom: 23px;
+  margin-bottom: 31px;
   margin-top: 0;
 }
 
