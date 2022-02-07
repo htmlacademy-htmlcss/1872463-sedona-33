@@ -168,7 +168,49 @@ body {
   width: 575px;
   border-radius: 10px;
 }
+
+/* Рассылка */
+.subscribe {
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 93px;
+  width: 1200px;
+  text-align: center;
+  background-image: url("../images/background-subscribe.jpg");
+  background-repeat: no-repeat;
+  background-color: #000000;
+  color:#ffffff;
 }
+
+.subscribe-title {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-description {
+  margin: 0 auto;
+  margin-bottom: 26px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.button-subscribe-form {
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  color: #ffffff;
+}
+
+
 
 /*  Каталог */
 .filter-hotels-container {
@@ -177,5 +219,19 @@ body {
   background-repeat: no-repeat;
 }
 
+/* Footer */
+
+.footer-contakt-tel-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  padding-bottom: 10px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
 
 
