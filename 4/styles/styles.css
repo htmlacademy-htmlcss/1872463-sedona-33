@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 26px;
+  background-color: #e5e5e5;
+  color: #333333;
+}
+
+/* Кнопки */
+.button {
+  font-family: "PTSans", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/*  Навигация */
+
+.navigation {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #ffffff;
+  color:#000000;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color:#000000;
+}
+
+.button-navigation {
+  color:#ffffff;
+  background-color: #756257;
+  width: 160px;
+  height: 37px;
+  border: none;
+  border-radius: 4px;
+}
+
+.welcome {
+  width: 1200px;
+  height: 485px;
+  margin: 0 auto;
+  background: url("../images/welcome.svg") no-repeat 371px 51px, url("../images/index-background-top-layer.svg") repeat-x 0 428px, url("../images/index-background.jpg");
+}
+
+
+
+
