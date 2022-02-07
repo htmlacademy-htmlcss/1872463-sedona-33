@@ -64,6 +64,8 @@ body {
   border-radius: 4px;
 }
 
+/*  Welcome */
+
 .welcome {
   width: 1200px;
   height: 485px;
@@ -71,6 +73,11 @@ body {
   background: url("../images/welcome.svg") no-repeat 371px 51px, url("../images/index-background-top-layer.svg") repeat-x 0 428px, url("../images/index-background.jpg");
 }
 
-
+/*  Welcome */
+.filter-hotels-container {
+  background-color: #88a4b9;
+  background-image: url("../images/catalog-background.jpg");
+  background-repeat: no-repeat;
+}
 
 
