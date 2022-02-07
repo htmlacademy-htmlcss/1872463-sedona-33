@@ -38,10 +38,10 @@ body {
 /* Кнопки */
 .button {
   font-family: "PTSans", sans-serif;
-  font-size: 16px;
-  line-height: 21px;
   font-weight: 700;
   font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -96,7 +96,8 @@ body {
   margin-top: 0;
 }
 
-.title-h2 {
+.tagline-title,
+.hotel-search-title {
   font-weight: 700;
   font-style: normal;
   font-size: 30px;
@@ -143,6 +144,31 @@ body {
   color: #ffffff;
 }
 
+/* Переход на страницу поиска гостиниц*/
+.hotel-search {
+  margin: 0 auto;
+  padding-top: 91px;
+  padding-bottom: 93px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.button-hotel-search {
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  background-color: #726257;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 575px;
+  border-radius: 10px;
+}
+}
 
 /*  Каталог */
 .filter-hotels-container {
