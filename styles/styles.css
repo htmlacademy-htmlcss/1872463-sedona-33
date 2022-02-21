@@ -59,10 +59,10 @@ body {
 /* Кнопки */
 .button {
   font-family: "PTSans", sans-serif;
-  font-weight: 700;
-  font-style: normal;
   font-size: 16px;
   line-height: 21px;
+  font-style: normal;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -71,10 +71,15 @@ body {
   display: inline-block;
 }
 
-
+.side-indent {
+  padding-right: 70px;
+  padding-left: 70px;
+}
 
 /*  Навигация */
 .navigation {
+  display: flex;
+  margin: 0 auto;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
@@ -83,18 +88,73 @@ body {
   color:#000000;
 }
 
+.navigation-list {
+  margin: 0;
+  list-style-type: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navigation-general {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  margin-left: 169px;
+  padding-right: 311px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.navigation-left-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.navigation-right-item:not(:first-child) {
+  margin-left: 21px;
+}
+
+.navigation-user {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+}
+
 .navigation-link {
   text-decoration: none;
   color:#000000;
 }
 
 .button-navigation {
-  color:#ffffff;
-  background-color: #756257;
-  width: 160px;
-  height: 37px;
+  width: 130px;
+  height: 20px;
+  line-height: 21px;
   border: none;
   border-radius: 4px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 15;
+  padding-right: 15;
+  background-color: #756257;
+  color: #ffffff;
+}
+
+.logo-link {
+  position: relative;
+  display: block;
+}
+
+.logo-img {
+  position: absolute;
+  margin-left: 70px;
+  z-index: 1;
 }
 
 /*  Welcome */
