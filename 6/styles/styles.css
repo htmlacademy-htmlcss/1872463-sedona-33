@@ -475,8 +475,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
-
 /* Переход на страницу поиска гостиниц*/
 .hotel-search {
   margin: 0 auto;
@@ -506,7 +504,7 @@ body {
 .subscribe {
   margin: 0 auto;
   padding-top: 94px;
-  padding-bottom: 93px;
+  padding-bottom: 94px;
   width: 1200px;
   text-align: center;
   background-image: url("../images/background-subscribe.jpg");
@@ -517,19 +515,54 @@ body {
 
 .subscribe-title {
   margin: 0 auto;
-  margin-bottom: 15px;
-  font-weight: 700;
-  font-style: normal;
+  margin-bottom: 29px;
   font-size: 30px;
   line-height: 36px;
+  font-style: normal;
+  font-weight: 700;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .subscribe-description {
   margin: 0 auto;
-  margin-bottom: 26px;
+  margin-bottom: 46px;
   font-size: 22px;
   color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.subscribe-form-field {
+  margin: 0;
+  width: 600px;
+  padding: 16px 19px 16px 22px;
+  font: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.subscribe-inner {
+  text-align: center;
+  background-color: #ffffff;
+  /*padding-top: 44px;
+  padding-bottom: 136px;*/
+}
+
+.subscribe-text-inner {
+  color: #000000;
+}
+
+.subscribe-field-inner {
+  background-color: #f2f2f2;
 }
 
 .button-subscribe-form {
@@ -543,11 +576,30 @@ body {
   color: #ffffff;
 }
 
+.subscribe-form-field:hover {
+  background-color: #e5e5e5;
+  color:rgba(0, 0, 0, 0.6);
+}
 
+.subscribe-form-field:focus {
+  background-color: #e5e5e5;
+  color:rgba(0, 0, 0, 0.6);
+  outline: 3px solid #83b3d3;
+  outline-offset: -3px;
+}
+
+.subscribe-form-field:active {
+  outline: 2px solid #000000;
+  outline-offset: -2px;
+}
+
+.subscribe-form-field:invalid:not(:placeholder-shown):invalid {
+  color: rgba(0, 0, 0, 0.6);
+  outline: 2px solid #ff5757;
+  outline-offset: -2px;
+}
 
 /*  Каталог */
-
-
 
 .filter-hotels-container {
   padding-top: 35px;
@@ -559,10 +611,6 @@ body {
 
 .page-container {
   margin: 0 auto;
-}
-
-.page-inner {
-  color: #000000;
 }
 
 .breadcrumbs-link,
@@ -759,21 +807,84 @@ body {
   font-style: normal;
 }
 
+/* Footer Begin */
+.page-footer {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
 
+.footer-social {
+  width: 168px;
+  padding-top: 9px;
+}
 
-/* Footer */
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-social-item {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 29px;
+}
+
+.footer-social-link {
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link-img {
+  margin: auto;
+}
+.footer-social-link svg {
+  fill:#83B3D3;
+}
+
+.footer-social-link:hover svg {
+  fill: #68A2CA;
+}
+
+.footer-social-link:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 10px;
+}
+
+.footer-social-link:focus svg {
+  fill: #68A2CA;
+}
+
+.footer-social-link:active svg {
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+.footer-contakt-tel {
+  width: 720px;
+}
 
 .footer-contakt-tel-link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 400;
+  padding-bottom: 10px;
   font-size: 40px;
   line-height: 40px;
-  padding-bottom: 10px;
+  font-weight: 400;
   color: #000000;
   text-decoration: none;
   text-align: center;
 }
+/* Footer END */
 
 
