@@ -553,8 +553,12 @@ body {
 .subscribe-inner {
   text-align: center;
   background-color: #ffffff;
-  padding-top: 44px;
-  padding-bottom: 136px;
+  /*padding-top: 44px;
+  padding-bottom: 136px;*/
+}
+
+.subscribe-text-inner {
+  color: #000000;
 }
 
 .subscribe-field-inner {
@@ -607,10 +611,6 @@ body {
 
 .page-container {
   margin: 0 auto;
-}
-
-.page-inner {
-  color: #000000;
 }
 
 .breadcrumbs-link,
