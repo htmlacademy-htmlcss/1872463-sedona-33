@@ -516,11 +516,12 @@ body {
 .subscribe-title {
   margin: 0 auto;
   margin-bottom: 15px;
-  font-weight: 700;
-  font-style: normal;
   font-size: 30px;
   line-height: 36px;
+  font-style: normal;
+  font-weight: 700;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .subscribe-description {
@@ -528,6 +529,25 @@ body {
   margin-bottom: 26px;
   font-size: 22px;
   color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.subscribe-form-field {
+  margin: 0;
+  width: 559px;
+  padding: 16px 19px 16px 22px;
+  font: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px 0 0 10px;
+  border: none;
 }
 
 .button-subscribe-form {
