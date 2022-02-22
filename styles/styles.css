@@ -504,7 +504,7 @@ body {
 .subscribe {
   margin: 0 auto;
   padding-top: 94px;
-  padding-bottom: 93px;
+  padding-bottom: 94px;
   width: 1200px;
   text-align: center;
   background-image: url("../images/background-subscribe.jpg");
@@ -515,7 +515,7 @@ body {
 
 .subscribe-title {
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 29px;
   font-size: 30px;
   line-height: 36px;
   font-style: normal;
@@ -526,7 +526,7 @@ body {
 
 .subscribe-description {
   margin: 0 auto;
-  margin-bottom: 26px;
+  margin-bottom: 46px;
   font-size: 22px;
   color: #ffffff;
 }
@@ -539,7 +539,7 @@ body {
 
 .subscribe-form-field {
   margin: 0;
-  width: 559px;
+  width: 600px;
   padding: 16px 19px 16px 22px;
   font: inherit;
   font-size: 18px;
