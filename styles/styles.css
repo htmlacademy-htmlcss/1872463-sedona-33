@@ -598,8 +598,45 @@ body {
   outline: 2px solid #ff5757;
   outline-offset: -2px;
 }
-
 /*  Каталог */
+
+/*Хлебные крошки*/
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.breadcrumbs-container {
+  padding-bottom: 45px;
+}
+
+.breadcrumbs-item:not(:last-child) {
+  position: relative;
+  margin-right: 26px;
+}
+
+.breadcrumbs-link:not(.breadcrumbs-link-current)::after {
+  position: absolute;
+  content: " ";
+  top: 11px;
+  left: 40px;
+  width: 5px;
+  height: 8px;
+  background-image: url("../images/nav-arrow.svg");
+  background-repeat: no-repeat;
+  opacity: 30%;
+  pointer-events: none;
+}
+
+.breadcrumbs-link svg {
+  width: 12px;
+  height: 12px;
+}
+
 .breadcrumbs-link,
 .breadcrumbs-link-current {
   font-size: 16px;
@@ -610,6 +647,24 @@ body {
   fill: rgba(255, 255, 255);
   padding: 3px 8px 3px 8px;
   text-decoration: none;
+}
+
+.breadcrumbs-link:hover {
+  color:rgba(255, 255, 255, 0.6);
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:focus {
+  outline: 3px solid #83b3d3;
+  outline-offset: 4px;
+  padding: 2px 8px 3px 8px;
+  border-radius: 4px;
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs-link:active {
+  color:rgba(255, 255, 255, 0.3);
+  fill: rgba(255, 255, 255, 0.3);
 }
 
 
