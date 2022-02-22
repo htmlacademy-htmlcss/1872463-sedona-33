@@ -150,7 +150,7 @@
         <!--Форма Выбора Гостиниц END-->
       </div>
       <!-- Сортировка Гостиниц Begin-->
-      <div class="sorting-type-container">
+      <div class="sorting-type-container side-indent">
         <p class="result">Найдено гостиниц: 38</p>
         <div class="sorting-type-form-container">
           <form class="sorting-type">
@@ -161,36 +161,45 @@
                 <option value="expensive">Сначала дорогие</option>
                 <option value="popular">Сначала популярные</option>
               </select>
+              <div class="select-arrow">
+                <svg aria-hidden="true" focusable="false" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.6 6.69998L11.7 1.39998C12 1.09998 12 0.499976 11.7 0.199976C11.4 -0.100024 10.8 -0.100024 10.5 0.199976L6 4.89998L1.5 0.199976C1.2 -0.100024 0.6 -0.100024 0.3 0.199976C0.1 0.299976 0 0.599976 0 0.799976C0 0.999976 0.1 1.19998 0.3 1.39998L5.4 6.69998C5.7 7.09998 6.3 7.09998 6.6 6.69998Z"/>
+                </svg>
+              </div>
             </div>
             <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
           </form>
         </div>
-        <!-- Способ вывода результатов сортировки Begin-->
         <div class="list-result-container">
           <ul class="list-result">
             <li class="list-result-item">
               <a class="list-result-link" href="#">
-                <!-- Вставить SVG-->
+                <svg aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000"/>
+                </svg>
                 <span class="visually-hidden">Показать найденые гостиницы мозаикой</span>
               </a>
             </li>
             <li class="list-result-item">
               <a class="list-result-link" href="#">
-                <!-- Вставить SVG-->
+                <svg aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z" fill="#000"/>
+                </svg>
                 <span class="visually-hidden">Показать найденые гостиницы как слайд-шоу</span>
               </a>
             </li>
             <li class="list-result-item">
               <a class="list-result-link list-result-link-current" href="#">
-                <!-- Вставить SVG-->
+                <svg aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000"/>
+                </svg>
                 <span class="visually-hidden">Показать найденые гостиницы списком</span>
               </a>
             </li>
           </ul>
         </div>
-        <!-- Способ вывода результатов сортировки End-->
       </div>
-      <!-- Сортировка гостиниц END -->
+      <!-- Сортировка Гостиниц END-->
       <!-- Результат сортировки BEGIN-->
       <ul class="hotel-list">
         <li class="hotel-list-item">

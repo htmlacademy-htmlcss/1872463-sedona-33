@@ -231,7 +231,7 @@ body {
   line-height: 36px;
 }
 
-/* Advantages */
+/* Преимущества */
 
 .advantages-title,
 .advantages-additional-title  {
@@ -692,7 +692,8 @@ body {
 /* Форма Выбора Гостиниц Begin*/
 .filter-hotels {
   display: grid;
-  grid-template-columns: 155px 62px 139px 205px 280px 38px 170px;
+  /*grid-template-columns: 155px 62px 139px 205px 280px 38px 170px;*/
+  grid-template-columns: 150px 67px 144px 147px 287px 85px 160px;
 }
 
 .catalog-filter-title {
@@ -1016,17 +1017,107 @@ body {
 }
 /* Форма Выбора Гостиниц END*/
 
+/* Сортировка Гостиниц BEGIN */
+
+.sorting-type-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 44px;
+  padding-bottom: 42px;
+}
+
 .result {
+  margin-top: 0;
+  margin-right: 175px;
+  margin-bottom: 0;
   font-size: 30px;
   line-height: 39px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-right: 175px;
-  margin-bottom: 0;
 }
 
+.sorting-type-form-container {
+  margin-right: 81px;
+  width: 287px;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /*width: 287px;*/
+  margin-right: auto;
+}
+
+.select-control {
+  width: 100%;
+  padding: 13px 5px 14px 14px;
+  font: inherit;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.select-arrow svg {
+  position: absolute;
+  top: 24px;
+  left: 257px;
+  content: "";
+  fill: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+.list-result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.list-result-item {
+  margin-right: 8px;
+  text-align: center;
+}
+
+.list-result-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.list-result-link {
+  display: block;
+  padding-top: 10px;
+  width: 48px;
+  height: 38px;
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
+}
+
+.list-result-link-current {
+  border-color: #000000;
+  outline: none;
+}
+
+.list-result-link:hover:not(.list-result-link-current),
+.list-result-link:focus:not(.list-result-link-current) {
+  display: block;
+  width: 48px;
+  height: 38px;
+  border: 2px solid #83B3D3;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+/* Сортировка Гостиниц END */
 .hotel-card-title-link {
   text-decoration: none;
   display: block;
