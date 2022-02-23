@@ -174,11 +174,11 @@
         <div class="list-result-container">
           <ul class="list-result">
             <li class="list-result-item">
-              <a class="list-result-link" href="#">
+              <a class="list-result-link list-result-link-current" href="#">
                 <svg aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000"/>
+                  <path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000"/>
                 </svg>
-                <span class="visually-hidden">Показать найденые гостиницы мозаикой</span>
+                <span class="visually-hidden">Показать найденые гостиницы списком</span>
               </a>
             </li>
             <li class="list-result-item">
@@ -190,11 +190,11 @@
               </a>
             </li>
             <li class="list-result-item">
-              <a class="list-result-link list-result-link-current" href="#">
+              <a class="list-result-link" href="#">
                 <svg aria-hidden="true" focusable="false" width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z" fill="#000"/>
+                  <path d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z" fill="#000"/>
                 </svg>
-                <span class="visually-hidden">Показать найденые гостиницы списком</span>
+                <span class="visually-hidden">Показать найденые гостиницы мозаикой</span>
               </a>
             </li>
           </ul>
@@ -301,6 +301,7 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
+        <!-- Пагинация Форма BEGIN -->
         <form class="amount-form">
           <label for="amount" class="amount-hotels">Гостиниц на странице:</label>
           <div class="select-amount">
@@ -316,12 +317,15 @@
               </svg>
             </span>
           </div>
-          <button class="visually-hidden" type="submit">
-          Выбрать количество гостиниц на странице
-          </button>
-        </form>
+            <button class="visually-hidden" type="submit">
+              Выбрать количество гостиниц на странице
+            </button>
+          </form>
+          <!-- Пагинация Форма END -->
       </div>
-      <!-- Пагинация Форма END-->
+      <!-- Пагинация END -->
+      </div>
+      <!-- Пагинация END -->
       <!--Рассылка Begin -->
       <section class="subscribe-inner side-indent">
         <h2 class="subscribe-title subscribe-text-inner">Подпишитесь на рассылку</h2>
@@ -337,7 +341,7 @@
       <!--Рассылка End -->
      </div>
     </main>
-    <footer class="page-footer side-indent">
+    <footer class="page-footer  side-indent">
       <!-- Иконки соцсетей Begin -->
       <section class="footer-social">
         <h2 class="visually-hidden">Иконки социальных сетей</h2>
@@ -397,6 +401,6 @@
       </section>
       <!-- Лого HTML Academy End -->
     </footer>
-    </div>
+   </div>
   </body>
 </html>

@@ -1198,19 +1198,58 @@ body {
   width: 620px;
   border-radius: 4px;
 }
+/*-- Пагинация */
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 31px;
+  padding-bottom: 45px;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-item {
+  text-align: center;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .pagination-link {
   display: block;
+  width: 55px;
+  height: 40px;
   padding-top: 15px;
-  color: #ffffff;
   text-decoration: none;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
-  width: 55px;
-  height: 55px;
+  font-style: normal;
+  color: #ffffff;
   background-color: #83b3d3;
   border-radius: 4px;
+}
+
+.pagination-link:active:not(.pagination-link-current),
+.pagination-link:focus:not(.pagination-link-current),
+.pagination-link:hover:not(.pagination-link-current) {
+  background-color: #68A2CA;
+}
+
+.pagination-link:focus:not(.pagination-link-current) {
+  outline: 3px solid #756257;
+  border-radius: 4px;
+}
+
+.pagination-link:active:not(.pagination-link-current) {
+  color:rgba(255, 255, 255, 0.3)
 }
 
 .pagination-link-current {
@@ -1219,12 +1258,73 @@ body {
   outline: none;
 }
 
+/* Amount Control begin*/
+.select-amount {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+
+.amount-control {
+  width: 100%;
+  padding: 11px 21px 10px 17px;
+  font: inherit;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+  appearance: none;
+}
+
+.amount-form {
+  position: relative;
+}
+
 .amount-hotels {
+  position: absolute;
+  top: 11px;
+  right: 211px;
+  width: 175px;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
   font-style: normal;
 }
+
+.select-arrow-amount svg {
+  position: absolute;
+  top: 24px;
+  left: 134px;
+  content: "";
+  fill: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+.amount-control:hover,
+.amount-control:focus,
+.select-control:hover,
+.select-control:focus {
+  border-color: #83b3d3;
+}
+
+.amount-control:focus,
+.select-control:focus {
+  outline: none;
+}
+
+.select-arrow-amount svg,
+.select-arrow svg,
+.amount-control:active,
+.select-control:active {
+  color: rgba(51, 51, 51, 0.3);
+  border-color: #e6e6e6;
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+/* Amount Control end*/
 
 /* Footer Begin */
 .page-footer {
