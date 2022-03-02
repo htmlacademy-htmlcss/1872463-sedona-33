@@ -1345,9 +1345,31 @@ body {
 }
 
 .hotel-list-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 300px;
   padding: 20px;
   margin-right: 18px;
+}
+
+.hotel-card-image,
+.hotel-card-title {
+  width: 100%;
+}
+
+.hotel-card-type,
+.hotel-card-price {
+  display: block;
+  width: calc(calc(100%-25px)/2)
+  }
+
+.button-details,
+.button-to-favorites,
+.button-in-favorites,
+.rating,
+.star-list {
+width: calc(calc(100%-25px)/2)
 }
 
 .hotel-list-item:not(:nth-child(3n)) {
