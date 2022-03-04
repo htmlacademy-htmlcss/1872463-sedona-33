@@ -1126,11 +1126,13 @@ body {
 
 
 /* Сортировка Гостиниц END */
+
 .hotel-card-title-link {
   text-decoration: none;
   display: block;
-  width: fit-content;
+  width: 100%;
   color: #000000;
+  margin-bottom: 16px;
 }
 
 .hotel-card-title {
@@ -1145,6 +1147,9 @@ body {
 .hotel-card-price {
   font-size: 18px;
   line-height: 23px;
+  display: block;
+  width: calc(calc(100% - 20px) / 2);
+  margin-bottom: 16px;
 }
 
 .button-to-favorites,
@@ -1157,6 +1162,8 @@ body {
   padding-bottom: 10px;
   padding-left: 0;
   padding-right: 0;
+  /*width: calc(calc(100% - 20px) / 2);*/
+  margin-bottom: 16px;
 }
 
 .button-details {
@@ -1166,13 +1173,13 @@ body {
 }
 
 .button-to-favorites {
-  width: 141px;
+  width: 140px;
   height: 37px;
   background-color: #83b3d3;
 }
 
 .button-in-favorites {
-  width: 141px;
+  width: 140px;
   height: 37px;
   background-color: #7db54f;
 }
@@ -1181,16 +1188,23 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #333333;
+  display: block;
   width: 160px;
-  height: 37px;
+  /*width: calc(calc(100% - 20px) / 2);*/
   background-color: #f2f2f2;
   border-radius: 4px;
   padding-top: 9px;
-  padding-bottom: 10px;
-  padding-left:25px;
-  padding-right:25px;
+  padding-bottom: 9px;
+  margin-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.button-load-more-container {
+  padding-top: 31px;
+  padding-bottom: 30px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .button-load-more {
@@ -1206,6 +1220,7 @@ body {
   width: 620px;
   border-radius: 4px;
 }
+
 /*-- Пагинация */
 .pagination-container {
   display: flex;
@@ -1350,7 +1365,16 @@ body {
   /*width: 1020px;*/
 }
 
+.hotel-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.hotel-card-image {
+  width: 100%;
+  margin-bottom: 16px;
+ }
 
 /*
 .hotel-list-item:not(:nth-child(3n)) {
