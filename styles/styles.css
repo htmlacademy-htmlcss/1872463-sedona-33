@@ -1193,6 +1193,13 @@ body {
   text-transform: uppercase;
 }
 
+.button-load-more-container {
+  padding-top: 31px;
+  padding-bottom: 30px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
 .button-load-more {
   display: block;
   font-size: 20px;
@@ -1206,6 +1213,7 @@ body {
   width: 620px;
   border-radius: 4px;
 }
+
 /*-- Пагинация */
 .pagination-container {
   display: flex;
