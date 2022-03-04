@@ -1358,7 +1358,10 @@ body {
   /*width: 1020px;*/
 }
 
-
+.hotel-list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*
 .hotel-list-item:not(:nth-child(3n)) {
