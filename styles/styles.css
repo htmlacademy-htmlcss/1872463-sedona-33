@@ -1187,8 +1187,8 @@ body {
   border-radius: 4px;
   padding-top: 9px;
   padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left:25px;
+  padding-right:25px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1335,46 +1335,28 @@ body {
 /* Amount Control end*/
 
 /* Результат сортировки BEGIN */
+.hotel-list-side-indent {
+  padding-right: 92px;
+  padding-left: 92px;
+}
+
 .hotel-list {
   margin: 0;
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 58px;
   grid-auto-flow: row;
   /*width: 1020px;*/
 }
 
-.hotel-list-item {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 300px;
-  padding: 20px;
-  margin-right: 18px;
-}
 
-.hotel-card-image,
-.hotel-card-title {
-  width: 100%;
-}
 
-.hotel-card-type,
-.hotel-card-price {
-  display: block;
-  width: calc(calc(100%-25px)/2)
-  }
-
-.button-details,
-.button-to-favorites,
-.button-in-favorites,
-.rating,
-.star-list {
-width: calc(calc(100%-25px)/2)
-}
-
+/*
 .hotel-list-item:not(:nth-child(3n)) {
   margin-right: 18px;
 }
+*/
 
 /* Результат сортировки END */
 
