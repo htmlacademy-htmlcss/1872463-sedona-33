@@ -21,8 +21,7 @@ html {
 .container-shadow {
   margin: 0 auto;
   padding: 0;
-  /*max-width: 1200px;*/
-  width: 1200px;
+  max-width: 1200px;
   background-color: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
@@ -78,11 +77,6 @@ body {
 }
 
 /*  Навигация */
-
-.page-header {
-  width: 1200px;
-}
-
 .navigation {
   display: flex;
   margin: 0 auto;
@@ -166,7 +160,6 @@ body {
 
 .navigation-link-favorite {
   position: relative;
-  display: block;
 }
 
 .round-green {
@@ -654,7 +647,6 @@ body {
   fill: rgba(255, 255, 255);
   padding: 3px 8px 3px 8px;
   text-decoration: none;
-  display: block;
 }
 
 .breadcrumbs-link:hover {
@@ -1187,8 +1179,8 @@ body {
   border-radius: 4px;
   padding-top: 9px;
   padding-bottom: 10px;
-  padding-left:25px;
-  padding-right:25px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1335,28 +1327,23 @@ body {
 /* Amount Control end*/
 
 /* Результат сортировки BEGIN */
-.hotel-list-side-indent {
-  padding-right: 92px;
-  padding-left: 92px;
-}
-
 .hotel-list {
   margin: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 58px;
   grid-auto-flow: row;
   /*width: 1020px;*/
 }
 
+.hotel-list-item {
+  width: 300px;
+  padding: 20px;
+  margin-right: 18px;
+}
 
-
-/*
 .hotel-list-item:not(:nth-child(3n)) {
   margin-right: 18px;
 }
-*/
 
 /* Результат сортировки END */
 
