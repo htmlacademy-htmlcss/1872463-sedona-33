@@ -1132,7 +1132,7 @@ body {
   display: block;
   width: 100%;
   color: #000000;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
 }
 
 .hotel-card-title {
@@ -1149,7 +1149,7 @@ body {
   line-height: 23px;
   display: block;
   width: calc(calc(100% - 20px) / 2);
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
 }
 
 .button-to-favorites,
@@ -1163,7 +1163,7 @@ body {
   padding-left: 0;
   padding-right: 0;
   /*width: calc(calc(100% - 20px) / 2);*/
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
 }
 
 .button-details {
@@ -1353,6 +1353,7 @@ body {
 .hotel-list-side-indent {
   padding-right: 92px;
   padding-left: 92px;
+  padding-bottom: 4px;
 }
 
 .hotel-list {
@@ -1369,11 +1370,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  grid-row-gap: 16px; /*добавил - интервал между строками карточек*/
 }
 
 .hotel-card-image {
   width: 100%;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
  }
 
 /*
@@ -1390,9 +1392,10 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  grid-column: 7/8;
-  grid-row: 1/2;
+  /*grid-column: 7/8;
+  grid-row: 1/2;*/
   justify-self: center;
+  margin-bottom: 50px;
 }
 
 .star-list-item:not(:last-child) {
