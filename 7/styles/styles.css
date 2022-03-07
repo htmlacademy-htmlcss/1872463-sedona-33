@@ -530,10 +530,10 @@ body {
 
 .button-hotel-search {
   display: block;
-  font-weight: 700;
-  font-style: normal;
   font-size: 20px;
   line-height: 36px;
+  font-weight: 700;
+  font-style: normal;
   color: #ffffff;
   background-color: #726257;
   margin-left: auto;
@@ -602,10 +602,33 @@ body {
   font: inherit;
   font-size: 18px;
   font-weight: 400;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   color: rgba(0, 0, 0, 0.6);
   border-radius: 10px 0 0 10px;
   border: none;
+}
+
+.subscribe-form-field:hover {
+  background-color: #e6e6e6;
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.subscribe-form-field:focus {
+  background-color: #e6e6e6;
+  color:rgba(0, 0, 0, 0.6);
+  outline: 3px solid #83b3d3;
+  outline-offset: -3px;
+}
+
+.subscribe-form-field:active {
+  outline: 2px solid #000000;
+  outline-offset: -2px;
+}
+
+.subscribe-form-field:invalid:not(:placeholder-shown):invalid {
+  color: rgba(0, 0, 0, 0.6);
+  outline: 2px solid #ff5757;
+  outline-offset: -2px;
 }
 
 .subscribe-inner {
@@ -634,28 +657,21 @@ body {
   color: #ffffff;
 }
 
-.subscribe-form-field:hover {
-  background-color: #e5e5e5;
-  color:rgba(0, 0, 0, 0.6);
+.button-subscribe-form:active,
+.button-subscribe-form:focus,
+.button-subscribe-form:hover {
+  background-color: #68a2ca;
 }
 
-.subscribe-form-field:focus {
-  background-color: #e5e5e5;
-  color:rgba(0, 0, 0, 0.6);
-  outline: 3px solid #83b3d3;
+.button-subscribe-form:focus {
+  outline: 3px solid #756257;
   outline-offset: -3px;
 }
 
-.subscribe-form-field:active {
-  outline: 2px solid #000000;
-  outline-offset: -2px;
+.button-subscribe-form:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
-.subscribe-form-field:invalid:not(:placeholder-shown):invalid {
-  color: rgba(0, 0, 0, 0.6);
-  outline: 2px solid #ff5757;
-  outline-offset: -2px;
-}
 /*  Каталог */
 
 /*Хлебные крошки*/
