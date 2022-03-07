@@ -1546,6 +1546,49 @@ body {
   text-decoration: none;
   text-align: center;
 }
+
+.footer-contakt-tel-link:hover {
+  color: #756257;
+}
+
+.footer-contakt-tel-link:focus {
+  display: block;
+  width: 331px;
+  height: 40px;
+  outline: 3px solid #83b3d3;
+  outline-offset: 10px;
+  border-radius: 10px;
+  color: #756257;
+}
+
+.footer-contakt-tel-link:active {
+  color: rgba(117, 98, 87, 0.3);
+}
+
+.html-academy-link {
+  display: block;
+  width: 115px;
+  height: 33px;
+  margin-left: auto;
+}
+
+.html-academy-link:hover svg {
+  fill: #756257;
+}
+
+.html-academy-link:focus {
+  outline: 3px solid #83b3d3;
+  outline-offset: 10px;
+  border-radius: 10px;
+}
+
+.html-academy-link:focus svg {
+  fill: #756257;
+}
+
+.html-academy-link:active svg {
+  fill: rgba(117, 98, 87, 0.3);
+}
 /* Footer END */
 
 
