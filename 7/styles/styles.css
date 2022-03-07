@@ -544,6 +544,20 @@ body {
   border-radius: 10px;
 }
 
+.button-hotel-search:active,
+.button-hotel-search:focus,
+.button-hotel-search:hover {
+  background-color: #615048;
+}
+
+.button-hotel-search:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.button-hotel-search:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 /* Рассылка */
 .subscribe {
   margin: 0 auto;
