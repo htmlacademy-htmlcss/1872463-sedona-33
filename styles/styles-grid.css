@@ -920,7 +920,7 @@ body {
 }
 
 .control-mark:focus {
-  border: 3px solid #83B3D3;
+  border: 3px solid #83b3d3;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.6);
 }
@@ -1111,7 +1111,7 @@ body {
   display: block;
   width: 48px;
   height: 38px;
-  border: 2px solid #83B3D3;
+  border: 2px solid #83b3d3;
   border-radius: 4px;
   outline: none;
 }
@@ -1240,7 +1240,7 @@ body {
 .pagination-link:active:not(.pagination-link-current),
 .pagination-link:focus:not(.pagination-link-current),
 .pagination-link:hover:not(.pagination-link-current) {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .pagination-link:focus:not(.pagination-link-current) {
@@ -1405,20 +1405,20 @@ body {
   margin: auto;
 }
 .footer-social-link svg {
-  fill:#83B3D3;
+  fill:#83b3d3;
 }
 
 .footer-social-link:hover svg {
-  fill: #68A2CA;
+  fill: #68a2ca;
 }
 
 .footer-social-link:focus {
-  outline: 3px solid #83B3D3;
+  outline: 3px solid #83b3d3;
   border-radius: 10px;
 }
 
 .footer-social-link:focus svg {
-  fill: #68A2CA;
+  fill: #68a2ca;
 }
 
 .footer-social-link:active svg {
