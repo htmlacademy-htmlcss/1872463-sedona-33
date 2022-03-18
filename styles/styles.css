@@ -1534,9 +1534,7 @@ body {
 }
 
 .hotel-card-image {
-  /*width: 100%;*/
-  width: 300px;
-  height: 206px;
+  width: 100%;
 }
 
 .hotel-card-link {
