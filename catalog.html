@@ -62,8 +62,8 @@
         <div class="filter-hotels-container side-indent">
           <h1 class="page-title-inner">Гостиницы Седоны</h1>
           <!-- Хлебные крошки Begin -->
-          <div class="breadcrumbs-container">
-          <ul class="breadcrumbs">
+          <!--<div class="breadcrumbs-container">-->
+          <ul class="breadcrumbs breadcrumbs-container">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">
                 <svg aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" /><path d="M4 10h1V7.5h2V10h1V6.5H4V10Z"/></svg>
@@ -74,7 +74,7 @@
               <a class="breadcrumbs-link breadcrumbs-link-current" href=" ">Гостиницы</a>
             </li>
           </ul>
-          </div>
+          <!--</div>-->
           <!-- Хлебные крошки End -->
           <!--Форма Выбора Гостиниц Begin-->
           <h2 class="visually-hidden">Фильтр выбора гостиниц</h2>
@@ -204,10 +204,12 @@
       <!-- Результат сортировки BEGIN-->
       <ul class="hotel-list hotel-list-side-indent">
         <li class="hotel-list-item">
-          <img class="hotel-card-image" src="images/hotel/hotel-1-amara-resort-spa.jpg" alt="Гостиница Amara Resort & Spa." width="300" height="206"/>
-          <a class="hotel-card-title-link" href="#">
-            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="images/hotel/hotel-1-amara-resort-spa.jpg" alt="Гостиница Amara Resort & Spa." width="300" height="206"/>
           </a>
+          <!-- <a class="hotel-card-title-link" href="#"> -->
+            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+          <!--</a>-->
           <span class="hotel-card-type">Гостиница</span>
           <span class="hotel-card-price">От 4000 ₽</span>
           <button class="button button-details">Подробнее</button>
@@ -367,7 +369,7 @@
       <!--Рассылка Begin -->
       <section class="subscribe-inner side-indent">
         <h2 class="subscribe-title subscribe-text-inner">Подпишитесь на рассылку</h2>
-        <p class="subscribe-description subscribe-text-inner">Только полезная информация и никакого спама,<br />честное бойскаутское!</p>
+        <p class="subscribe-description subscribe-text-inner">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <!-- Форма подписки на рассылку Begin -->
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="subscribe-email">Email</label>
