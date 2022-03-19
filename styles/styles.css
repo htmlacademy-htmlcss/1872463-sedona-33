@@ -421,6 +421,7 @@ body {
 }
 
 .advantages-number {
+  display: inline-block;
   padding-bottom: 30px;
 }
 
@@ -438,7 +439,7 @@ body {
 .advantages-item-tourist {
   background-color: rgba(131, 179, 211, 0.12);
 }
-px
+
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
 }
@@ -449,7 +450,6 @@ px
   line-height: 21px;
   font-style: normal;
   font-weight: 400;
-
 }
 
 .advantages-number-town,
