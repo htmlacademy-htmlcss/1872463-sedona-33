@@ -170,7 +170,7 @@ body {
   text-decoration-style: solid;
   text-decoration-color: #756257;
   text-decoration-thickness: 2px;
-  text-underline-offset: 23px;
+  text-underline-offset: 24px;
 }
 
 .button-navigation {
@@ -303,7 +303,8 @@ body {
   line-height: 28px;
   color: #000000;
   text-transform: uppercase;
-}
+  margin: 0;
+  }
 
 .advantages-number,
 .advantages-description,
@@ -322,18 +323,10 @@ body {
 .advantages-number-bridge,
 .advantages-description-bridge {
   color: #ffffff;
+  margin: 0;
 }
 
-.advantages-title {
-  font-size: 24px;
-  line-height: 28px;
-  font-style: normal;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
-  margin: 0;
-  /*margin-bottom: 25px;*/
-}
+
 
 .advantages-item-town,
 .advantages-item-bridge {
@@ -344,7 +337,6 @@ body {
 .advantages-title-town,
 .advantages-title-bridge {
   color: #ffffff;
-  /*padding-top: 98px;*/
 }
 
 /*
@@ -417,7 +409,7 @@ body {
 }
 
 .advantages-title {
-  padding-bottom: 29px;
+  padding-bottom: 25px;
 }
 
 .advantages-number {
@@ -549,8 +541,7 @@ body {
   margin: 0 auto;
   padding-top: 91px;
   padding-bottom: 93px;
-  padding-left: 313px;
-  padding-right: 313px;
+
   text-align: center;
   background-color: #ffffff;
 }
@@ -566,23 +557,33 @@ body {
 }
 
 .hotel-search-description {
-  margin: 0 0 56px 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0 55px 0;
+  padding-left: 294px;
+  padding-right: 313px;
 }
 
 .button-hotel-search {
-  display: block;
+  display: inline-block;
+  width: 575px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
   font-style: normal;
-  color: #ffffff;
-  background-color: #726257;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 15px;
-  padding-bottom: 15px;
-  width: 575px;
+  padding-bottom: 9px;
   border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: #726257;
+  color: #ffffff;
 }
 
 .button-hotel-search:active,
@@ -640,7 +641,7 @@ body {
 
 .subscribe-form-field {
   margin: 0;
-  width: 600px;
+  width: 558px;
   padding: 16px 19px 16px 22px;
   font: inherit;
   font-size: 18px;
@@ -690,6 +691,7 @@ body {
 }
 
 .button-subscribe-form {
+  font-family: "PT Sans";
   font-size: 20px;
   line-height: 26px;
   background-color: #83b3d3;
@@ -728,19 +730,19 @@ body {
 }
 
 .breadcrumbs-container {
-  margin-bottom: 45px;
+  margin-bottom: 42px;
 }
 
 .breadcrumbs-item:not(:last-child) {
   position: relative;
-  margin-right: 26px;
+  margin-right: 16px;
 }
 
 .breadcrumbs-link:not(.breadcrumbs-link-current)::after {
   position: absolute;
   content: " ";
-  top: 11px;
-  left: 40px;
+  top: 7px;
+  left: 26px;
   width: 5px;
   height: 8px;
   background-image: url("../images/nav-arrow.svg");
@@ -762,7 +764,7 @@ body {
   font-weight: 400;
   color: #ffffff;
   fill: rgba(255, 255, 255);
-  padding: 3px 8px 3px 8px;
+  padding: 0 8px 3px 3px;
   text-decoration: none;
   display: block;
 }
@@ -787,34 +789,43 @@ body {
 
 
 .filter-hotels-container {
-  padding-top: 35px;
-  padding-bottom: 60px;
+  padding-top: 38px;
+  padding-bottom: 75px;
   background-color: #88a4b9;
   background-image: url("../images/catalog-background.jpg");
   background-repeat: no-repeat;
 }
 
 .page-title-inner {
+  font-family: "PT Sans";
   font-size: 60px;
-  line-height: 78px;
+  line-height: 68px;
   font-style: normal;
   font-weight: 700;
   color: #ffffff;
   margin: 0 auto;
-  padding-bottom: 5px;
+  /*padding-bottom: 5px;*/
 }
 /* Форма Выбора Гостиниц Begin*/
 .filter-hotels {
   display: grid;
-  /*grid-template-columns: 155px 62px 139px 205px 280px 38px 170px;*/
-  grid-template-columns: 150px 67px 144px 147px 287px 85px 160px;
+  grid-template-columns: 150px 67px 144px 169px 292px 76px 161px;
 }
 
 .catalog-filter-title {
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
+  padding-bottom: 26px;
 }
+
+.filter-price-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 35px;
+}
+
 
 .catalog-filter-item:not(:last-child) {
   margin-bottom: 13px;
@@ -867,11 +878,7 @@ body {
   grid-column: 7/8;
   justify-self: end;
   margin: 0;
-  margin-top: 56px;
-}
-
-.catalog-filter-title {
-  padding-bottom: 30px;
+  margin-top: 61px;
 }
 
 .control-label {
@@ -880,6 +887,7 @@ body {
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
+  padding-left: 4px;
 }
 /* Range */
 .range-scale {
@@ -931,7 +939,7 @@ body {
 .range-input-left,
 .range-input-right {
   margin: 0;
-  width: 144px;
+  width: 145px;
   font: inherit;
   font-size: 18px;
   line-height: 23px;
@@ -941,7 +949,7 @@ body {
   outline: none;
   appearance: textfield;
   box-sizing: border-box;
-  padding: 11px 30px 11px 11px;
+  padding: 10px 30px 11px 10px;
 }
 
 .range-input-left {
@@ -956,6 +964,7 @@ body {
 .range-input-left::placeholder,
 .range-input-right::placeholder {
   color: #ffffff;
+  padding-left: 6px;
 }
 
 .range-input-left:hover,
@@ -979,7 +988,7 @@ body {
 .range-wrapper-inputs {
   display: flex;
   justify-content: center;
-  margin-bottom: 32px;
+  margin-bottom: 27px;
 }
 
 .range-input-left::-webkit-outer-spin-button,
@@ -1008,7 +1017,7 @@ body {
   display: block;
   content: " ";
   top: 10px;
-  right: 10px;
+  right: 15px;
 }
 
 /* Control */
@@ -1016,6 +1025,7 @@ body {
   position: relative;
   display: block;
   padding-left: 36px;
+  padding-bottom: 10px;
 }
 
 /* Mark */
@@ -1027,18 +1037,19 @@ body {
   height: 20px;
   background-color: #ffffff;
   border-radius: 4px;
+
 }
 
 .control-mark:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
-
+/*
 .control-mark:focus {
   outline: 3px solid #83b3d3;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.6);
 }
-
+*/
 .control-mark:active {
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -1052,6 +1063,15 @@ body {
   content: "";
   background-image: url("../images/tick.svg");
   background-repeat: no-repeat;
+}
+
+.control-input:focus + .control-mark {
+  opacity: 0.6;
+  box-shadow: 0 0 0 3px #83b3d3;
+}
+
+.control-input  {
+  padding-bottom: 50px;
 }
 
 /* Radio */
@@ -1072,15 +1092,17 @@ body {
 
 .button-filter-apply {
   color: #ffffff;
+  font-family: "PT Sans";
   font-size: 16px;
-  line-height: 21px;
+  line-height: 20px;
   font-weight: 700;
+  font-style: normal;
   background-color: #83b3d3;
   width: 160px;
   height: 48px;
   border: none;
   border-radius: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .button-filter-apply:hover {
@@ -1099,9 +1121,11 @@ body {
 }
 
 .button-filter-reset {
+  font-family: "PT Sans";
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  font-style: normal;
   color: #ffffff;
   width: 100px;
   height: 32px;
@@ -1137,23 +1161,26 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 44px;
-  padding-bottom: 42px;
+  padding-top: 41px;
+  padding-bottom: 70px;
+  padding-right: 69px;
+  padding-left: 72px;
 }
 
 .result {
   margin-top: 0;
-  margin-right: 175px;
+  margin-right: 191px;
   margin-bottom: 0;
+  font-family: "PT Sans";
   font-size: 30px;
-  line-height: 39px;
+  line-height: 38px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .sorting-type-form-container {
-  margin-right: 81px;
+  margin-right: 79px;
   width: 287px;
 }
 
@@ -1198,7 +1225,7 @@ body {
 }
 
 .list-result-item {
-  margin-right: 8px;
+  margin-right: 4px;
   text-align: center;
 }
 
@@ -1593,14 +1620,16 @@ height: 206px;
 .page-footer {
   display: flex;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 37px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
 
 .footer-social {
   width: 168px;
-  padding-top: 9px;
+  padding-top: 0px;
+  padding-right: 13px;
+  padding-left: 58px;
 }
 
 .footer-social-list {
@@ -1617,7 +1646,7 @@ height: 206px;
 }
 
 .footer-social-item:not(:last-child) {
-  margin-right: 29px;
+  margin-right: 27px;
 }
 
 .footer-social-link {
@@ -1651,6 +1680,7 @@ height: 206px;
 
 .footer-contakt-tel {
   width: 720px;
+  padding-top: 3px;
 }
 
 .footer-contakt-tel-link {
@@ -1688,7 +1718,8 @@ height: 206px;
   display: block;
   width: 115px;
   height: 33px;
-  margin-left: auto;
+  margin-left: 53px;
+  padding-top: 5px;
 }
 
 .html-academy-link:hover svg {
