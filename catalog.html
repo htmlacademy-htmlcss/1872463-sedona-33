@@ -14,24 +14,21 @@
           <img class="logo-img" src="images/logo-sedona.svg" alt="Логотип города Седона." width="138" height="70"/>
         </a>
         <!-- Логотип End -->
-        <nav class="navigation side-indent">
+        <nav class="navigation">
           <!-- Основная навигация Begin -->
-          <div class="navigation-left">
-            <ul class="navigation-list navigation-general">
-              <li class="navigation-left-item">
-                <a class="navigation-link" href="index.html">Главная</a>
-              </li>
-              <li class="navigation-left-item">
-                <a class="navigation-link" href="#">О Седоне</a>
-                </li>
-              <li class="navigation-left-item">
-                <a class="navigation-link  navigation-link-current">Гостиницы</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="navigation-list navigation-general">
+            <li class="navigation-left-item">
+              <a class="navigation-link" href="index.html">Главная</a>
+            </li>
+            <li class="navigation-left-item">
+              <a class="navigation-link" href="#">О Седоне</a>
+            </li>
+            <li class="navigation-left-item">
+                a class="navigation-link  navigation-link-current">Гостиницы</a>
+            </li>
+          </ul>
           <!-- Основная навигация End -->
-        <!-- Пользовательская навигация Begin -->
-        <div class="navigation-right">
+          <!-- Пользовательская навигация Begin -->
           <div class="navigation-list navigation-user">
             <div class="navigation-right-item navigation-search">
               <a class="navigation-link" href="#">
@@ -53,8 +50,7 @@
               <a class="button button-navigation" href="#">Хочу сюда!</a>
             </div>
           </div>
-      </div>
-        <!-- Пользовательская навигация End -->
+          <!-- Пользовательская навигация End -->
         </nav>
       </header>
      <main class="main-container main-inner">
@@ -62,8 +58,7 @@
         <div class="filter-hotels-container side-indent">
           <h1 class="page-title-inner">Гостиницы Седоны</h1>
           <!-- Хлебные крошки Begin -->
-          <div class="breadcrumbs-container">
-          <ul class="breadcrumbs">
+          <ul class="breadcrumbs breadcrumbs-container">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">
                 <svg aria-hidden="true" focusable="false" width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path d="M6 .3 0 5.8V12h12V5.8L6 .3ZM11 11H1V6.2l5-4.5 5 4.5V11Z" /><path d="M4 10h1V7.5h2V10h1V6.5H4V10Z"/></svg>
@@ -74,7 +69,6 @@
               <a class="breadcrumbs-link breadcrumbs-link-current" href=" ">Гостиницы</a>
             </li>
           </ul>
-          </div>
           <!-- Хлебные крошки End -->
           <!--Форма Выбора Гостиниц Begin-->
           <h2 class="visually-hidden">Фильтр выбора гостиниц</h2>
@@ -116,8 +110,8 @@
               </label>
           </fieldset>
           <fieldset class="filter-hotels-group filter-hotels-price">
-            <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-            <!-- RANGE begin-->
+            <legend class="filter-price-title">Стоимость, ₽:</legend>
+            <!-- Range Begin-->
             <div class="range">
               <div class="range-wrapper-inputs">
                 <div class="range-input-min">
@@ -140,7 +134,7 @@
                 </div>
               </div>
             </div>
-            <!-- RANGE end-->
+            <!-- Range End-->
           </fieldset>
           <fieldset class="filter-hotels-group filter-hotels-apply-reset">
             <legend class="catalog-filter-title visually-hidden">Применить</legend>
@@ -148,10 +142,10 @@
             <button class="button button-filter-reset" type="reset">Сбросить</button>
           </fieldset>
           </form>
-          <!--Форма Выбора Гостиниц END-->
+          <!--Форма Выбора Гостиниц End-->
         </div>
       <!-- Сортировка Гостиниц Begin-->
-      <div class="sorting-type-container side-indent">
+      <div class="sorting-type-container">
         <p class="result">Найдено гостиниц: 38</p>
         <div class="sorting-type-form-container">
           <form class="sorting-type">
@@ -204,10 +198,12 @@
       <!-- Результат сортировки BEGIN-->
       <ul class="hotel-list hotel-list-side-indent">
         <li class="hotel-list-item">
-          <img class="hotel-card-image" src="images/hotel/hotel-1-amara-resort-spa.jpg" alt="Гостиница Amara Resort & Spa." width="300" height="206"/>
-          <a class="hotel-card-title-link" href="#">
-            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="images/hotel/hotel-1-amara-resort-spa.jpg" alt="Гостиница Amara Resort & Spa." width="300" height="206"/>
           </a>
+          <!-- <a class="hotel-card-title-link" href="#"> -->
+            <h3 class="hotel-card-title">Amara Resort & Spa</h3>
+          <!--</a>-->
           <span class="hotel-card-type">Гостиница</span>
           <span class="hotel-card-price">От 4000 ₽</span>
           <button class="button button-details">Подробнее</button>
@@ -237,10 +233,10 @@
           <span class="rating">Рейтинг: 8,5</span>
         </li>
         <li class="hotel-list-item">
-          <img class="hotel-card-image" src="images/hotel/hotel-2-desert-quail-inn.jpg" alt="Мотель Desert Quail Inn." width="300" height="206"/>
-          <a class="hotel-card-title-link" href="#">
-            <h3 class="hotel-card-title">Desert Quail Inn</h3>
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="images/hotel/hotel-2-desert-quail-inn.jpg" alt="Мотель Desert Quail Inn." width="300" height="206"/>
           </a>
+          <h3 class="hotel-card-title">Desert Quail Inn</h3>
           <span class="hotel-card-type">Гостиница</span>
           <span class="hotel-card-price">От 3000 ₽</span>
           <button class="button button-details">Подробнее</button>
@@ -265,10 +261,10 @@
           <span class="rating">Рейтинг: 8,9</span>
         </li>
         <li class="hotel-list-item">
-          <img class="hotel-card-image" src="images/hotel/hotel-3-villas-at-poco-diablo.jpg" alt="Апартаменты Villas at Poco Diablo." width="300" height="206"/>
-          <a class="hotel-card-title-link" href="#">
-            <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="images/hotel/hotel-3-villas-at-poco-diablo.jpg" alt="Апартаменты Villas at Poco Diablo." width="300" height="206"/>
           </a>
+          <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
           <span class="hotel-card-type">Гостиница</span>
           <span class="hotel-card-price">От 2000 ₽</span>
           <button class="button button-details">Подробнее</button>
@@ -288,7 +284,9 @@
           <span class="rating">Рейтинг: 9,2</span>
         </li>
         <li class="hotel-list-item">
-          <img class="hotel-card-image" src="images/hotel/hotel-4-greentree-inn.jpg" alt="Гостиница GreenTree Inn." width="300" height="206"/>
+          <a class="hotel-card-link" href="#">
+            <img class="hotel-card-image" src="images/hotel/hotel-4-greentree-inn.jpg" alt="Гостиница GreenTree Inn." width="300" height="206"/>
+          </a>
           <a class="hotel-card-title-link" href="#">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
           </a>
@@ -362,12 +360,10 @@
           <!-- Пагинация Форма END -->
       </div>
       <!-- Пагинация END -->
-
-      <!-- Пагинация END -->
       <!--Рассылка Begin -->
       <section class="subscribe-inner side-indent">
         <h2 class="subscribe-title subscribe-text-inner">Подпишитесь на рассылку</h2>
-        <p class="subscribe-description subscribe-text-inner">Только полезная информация и никакого спама,<br />честное бойскаутское!</p>
+        <p class="subscribe-description subscribe-text-inner">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <!-- Форма подписки на рассылку Begin -->
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="subscribe-email">Email</label>
@@ -379,7 +375,7 @@
       <!--Рассылка End -->
      </div>
     </main>
-    <footer class="page-footer  side-indent">
+    <footer class="page-footer">
       <!-- Иконки соцсетей Begin -->
       <section class="footer-social">
         <h2 class="visually-hidden">Иконки социальных сетей</h2>
