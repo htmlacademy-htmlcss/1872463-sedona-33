@@ -1162,7 +1162,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding-top: 41px;
-  padding-bottom: 70px;
+  padding-bottom: 72px;
   padding-right: 69px;
   padding-left: 72px;
   margin-bottom: ;
@@ -1447,7 +1447,7 @@ body {
 }
 
 .pagination-item:not(:last-child) {
-  margin-right: 9px;
+  margin-right: 8px;
 }
 
 .pagination-link {
