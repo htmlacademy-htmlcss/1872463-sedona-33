@@ -672,7 +672,7 @@ body {
 }
 
 .button-subscribe-form {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
   background-color: #83b3d3;
@@ -777,7 +777,7 @@ body {
 }
 
 .page-title-inner {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 60px;
   line-height: 68px;
   font-style: normal;
@@ -1065,7 +1065,7 @@ body {
 
 .button-filter-apply {
   color: #ffffff;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -1094,7 +1094,7 @@ body {
 }
 
 .button-filter-reset {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
@@ -1145,7 +1145,7 @@ body {
   margin-top: 0;
   margin-right: 191px;
   margin-bottom: 0;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 38px;
   font-style: normal;
@@ -1170,7 +1170,7 @@ body {
   width: 100%;
   padding: 11px 5px 14px 17px;
   font: inherit;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 23px;
   font-style: normal;
@@ -1244,7 +1244,7 @@ body {
 }
 
 .hotel-card-title {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 31px;
   font-style: normal;
@@ -1263,7 +1263,7 @@ body {
 .button-to-favorites,
 .button-in-favorites,
 .button-details {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-style: normal;
@@ -1362,7 +1362,7 @@ body {
 }
 
 .button-load-more {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
   font-style: normal;
