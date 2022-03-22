@@ -321,7 +321,11 @@ body {
   margin: 0;
 }
 
-
+.advantages-housing-text {
+  display: inline-block;
+  padding-right: 35px;
+  padding-left: 35px;
+}
 
 .advantages-item-town,
 .advantages-item-bridge {
@@ -612,6 +616,15 @@ body {
   font-size: 22px;
   color: #ffffff;
   width: 500px;
+  padding-bottom: 45px;
+}
+
+.subscribe-description-inner {
+  margin: 0 auto;
+  font-size: 22px;
+  color: #ffffff;
+  width: 500px;
+  padding-bottom: 0;
 }
 
 .subscribe-form {
